@@ -4,9 +4,8 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const menu_items = [
     { title: "Principal", link: "/" },
-    { title: "Quem Somos", link: "/about" },
+    { title: "Sobre", link: "/about" },
     { title: "Contato", link: "/contact" },
-    { title: "FAQ", link: "/faq" },
   ];
 
   const log_items = [
