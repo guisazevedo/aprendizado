@@ -3,7 +3,6 @@ import HeaderText from "../01_components/HeaderText";
 import Navbar from "../01_components/Navbar";
 import Video from "../01_components/Video";
 import Faq from "../01_components/Faq";
-import Registro from "../01_components/Register";
 
 const Landing_page = () => {
   // inputs for the HeaderText component
