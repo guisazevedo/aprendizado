@@ -27,7 +27,9 @@ const execute_items = [
   {
     text: "Manter-me conectado",
     button: "Login",
+    button_link: "/content",
     alternative: "Precisa de uma conta?",
+    alternative_link: "/register",
   },
 ];
 

@@ -11,7 +11,13 @@ interface Props {
     id?: string;
     text?: string;
   }>;
-  execute_items: Array<{ text: string; button: string; alternative: string }>;
+  execute_items: Array<{
+    text: string;
+    button: string;
+    button_link: string;
+    alternative: string;
+    alternative_link: string;
+  }>;
 }
 
 const Register = ({
@@ -54,12 +60,14 @@ const Register = ({
               </label>
             </div>
             <div className="my-4">
-              <button type="submit" className="btn btn-primary">
-                {item.button}
-              </button>
+              <Link to={item.button_link}>
+                <button type="submit" className="btn btn-primary">
+                  {item.button}
+                </button>
+              </Link>
             </div>
             <div className="my-4">
-              <Link to="/login">{item.alternative}</Link>
+              <Link to={item.alternative_link}>{item.alternative}</Link>
             </div>
           </div>
         ))}

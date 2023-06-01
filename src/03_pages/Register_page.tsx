@@ -39,7 +39,9 @@ const execute_items = [
   {
     text: "Concordo com termos e condicoes",
     button: "Registrar-se",
+    button_link: "/login",
     alternative: "Ja possui uma conta?",
+    alternative_link: "/login",
   },
 ];
 
