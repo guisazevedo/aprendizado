@@ -21,7 +21,7 @@ const Content = ({
     <div className="container m-3">
       <div className="card border px-0 shadow gb-body">
         <img
-          src="/src/00_assets/images/class_1.jpg"
+          src={image}
           className="card-img-top"
           style={{ width: "100%" }}
           alt="Man contemplating the universe"
