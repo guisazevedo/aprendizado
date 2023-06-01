@@ -46,9 +46,11 @@ const Navbar = () => {
         <div className="row">
           {log_items.map((item) => (
             <div className="col">
-              <button type="button" className="btn btn-outline-light px-2">
-                <span className="p-3">{item.title}</span>
-              </button>
+              <Link to={item.link}>
+                <button type="button" className="btn btn-outline-light px-2">
+                  <span className="p-3">{item.title}</span>
+                </button>
+              </Link>
             </div>
           ))}
         </div>
