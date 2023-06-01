@@ -23,3 +23,5 @@
   "include": ["src", "src/01_components/Register.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
+
+// TODO => check if "src" is not enough in amplify
