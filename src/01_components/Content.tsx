@@ -1,5 +1,5 @@
 interface Props {
-  image?: string;
+  image: string;
   title: string;
   description: string;
   objective_1: string;
@@ -18,11 +18,12 @@ const Content = ({
   button,
 }: Props) => {
   return (
-    <div className="row">
-      <div className="col-4 card">
+    <div className="container m-3">
+      <div className="card border px-0 shadow gb-body">
         <img
           src="/src/00_assets/images/class_1.jpg"
           className="card-img-top"
+          style={{ width: "100%" }}
           alt="Man contemplating the universe"
         />
         <div className="card-body">
@@ -35,7 +36,7 @@ const Content = ({
           <li className="list-group-item">{objective_3}</li>
         </ul>
         <div className="card-body">
-          <a href="#" className="btn btn-primary">
+          <a href="#" className="btn btn-primary px-4">
             {button}
           </a>
         </div>
