@@ -33,7 +33,7 @@ const cards = [
   },
   {
     image: "/src/00_assets/images/class_1.jpg",
-    title: "Licao 1",
+    title: "Licao 3",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptatibus?",
     objective_1: "Aprender isso",
@@ -43,7 +43,7 @@ const cards = [
   },
   {
     image: "/src/00_assets/images/class_1.jpg",
-    title: "Licao 2",
+    title: "Licao 4",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptatibus?",
     objective_1: "Aprender +",
@@ -53,7 +53,7 @@ const cards = [
   },
   {
     image: "/src/00_assets/images/class_1.jpg",
-    title: "Licao 1",
+    title: "Licao 5",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptatibus?",
     objective_1: "Aprender isso",
@@ -63,7 +63,7 @@ const cards = [
   },
   {
     image: "/src/00_assets/images/class_1.jpg",
-    title: "Licao 2",
+    title: "Licao 6",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptatibus?",
     objective_1: "Aprender +",
@@ -79,9 +79,15 @@ const Content_page = () => {
       <Navbar />
       <div className="py-5"></div>
       <HeaderText header={header} sub_header={sub_header} text={text} />
-      <div className="row text-center me-3">
+      <div className="row justify-content-center">
         {cards.map((card) => (
-          <div className="col-sm">
+          <div
+            className="col-lg-3"
+            style={{
+              minWidth: "400px",
+              maxWidth: "500px",
+            }}
+          >
             <Content
               image={card.image}
               title={card.title}
