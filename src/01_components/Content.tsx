@@ -73,5 +73,4 @@ const Content = ({
 
 export default Content;
 
-// TODO => link iniciar
-// TODO => cols responsiviness
+// TODO => link botao "iniciar"

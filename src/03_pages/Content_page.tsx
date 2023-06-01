@@ -79,5 +79,3 @@ const Content_page = () => {
 };
 
 export default Content_page;
-
-// TODO => criar links para as paginas de conteudo
