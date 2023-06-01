@@ -5,6 +5,7 @@ import Login_page from "./03_pages/Login_page";
 import Register_page from "./03_pages/Register_page";
 import Content_page from "./03_pages/Content_page";
 import Contato_page from "./03_pages/Contato_page";
+import About_page from "./03_pages/About_page";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/register" Component={Register_page}></Route>
           <Route path="/content" Component={Content_page}></Route>
           <Route path="/contact" Component={Contato_page}></Route>
+          <Route path="/about" Component={About_page}></Route>
         </Routes>
       </Router>
     </div>
