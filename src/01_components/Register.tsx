@@ -1,46 +1,32 @@
 import { Link } from "react-router-dom";
 import HeaderText from "./HeaderText";
 
-const Register = () => {
-  // inputs for the HeaderText component
-  const header = "Registro";
-  const sub_header = "";
-  const text = "Registre-se aqui para iniciar o seu aprendizado!";
+interface Props {
+  header?: string;
+  sub_header?: string;
+  text?: string;
+  register_items: Array<{
+    title?: string;
+    type?: string;
+    id?: string;
+    text?: string;
+  }>;
+  execute_items: Array<{ text: string; button: string; alternative: string }>;
+}
 
-  // inputs for the email/password components
-  const register_items = [
-    {
-      title: "Nome e sobrenome",
-      type: "name",
-      id: "exampleInputName1",
-      text: "Como devemos te chamar?",
-    },
-    {
-      title: "Email",
-      type: "email",
-      id: "exampleInputEmail1",
-      text: "Nos nao iremos compartilhar seu email com ninguem",
-    },
-    {
-      title: "Senha",
-      type: "password",
-      id: "exampleInputPassword1",
-      text: "Sua senha deve ser de 8-20 caracteres, conter letras e numeros, e nao deve conter spacos ou emojis",
-    },
-    {
-      title: "Confirme a Senha",
-      type: "password",
-      id: "exampleInputPassword2",
-      text: "Sua senha deve ser de 8-20 caracteres, conter letras e numeros, e nao deve conter spacos ou emojis",
-    },
-  ];
-
+const Register = ({
+  header,
+  sub_header,
+  text,
+  register_items,
+  execute_items,
+}: Props) => {
   return (
     <div className="container col-md-8 col-lg-6 px-5">
       <HeaderText header={header} sub_header={sub_header} text={text} />
       <form>
         {register_items.map((item) => (
-          <div className="mb-3">
+          <div className="mb-4">
             <label htmlFor="exampleInputEmail1" className="form-label">
               {item.title}
             </label>
@@ -55,24 +41,28 @@ const Register = () => {
             </div>
           </div>
         ))}
-        <div className="my-5 form-check">
-          <input
-            type="checkbox"
-            className="form-check-input"
-            id="exampleCheck1"
-          />
-          <label className="form-check-label" htmlFor="exampleCheck1">
-            Concordo com termos e condicoes
-          </label>
-        </div>
-        <div className="my-4">
-          <button type="submit" className="btn btn-primary">
-            Registrar-se
-          </button>
-        </div>
-        <div className="my-4">
-          <Link to="/passnew">Esqueceu a senha?</Link>
-        </div>
+        {execute_items.map((item) => (
+          <div>
+            <div className="my-5 form-check">
+              <input
+                type="checkbox"
+                className="form-check-input"
+                id="exampleCheck1"
+              />
+              <label className="form-check-label" htmlFor="exampleCheck1">
+                {item.text}
+              </label>
+            </div>
+            <div className="my-4">
+              <button type="submit" className="btn btn-primary">
+                {item.button}
+              </button>
+            </div>
+            <div className="my-4">
+              <Link to="/login">{item.alternative}</Link>
+            </div>
+          </div>
+        ))}
       </form>
     </div>
   );

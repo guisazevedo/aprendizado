@@ -1,18 +1,18 @@
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Link } from "react-router-dom";
 
+const menu_items = [
+  { title: "Principal", link: "/" },
+  { title: "Sobre", link: "/about" },
+  { title: "Contato", link: "/contact" },
+];
+
+const log_items = [
+  { title: "Entrar", link: "/login" },
+  { title: "Registro", link: "/register" },
+];
+
 const Navbar = () => {
-  const menu_items = [
-    { title: "Principal", link: "/" },
-    { title: "Sobre", link: "/about" },
-    { title: "Contato", link: "/contact" },
-  ];
-
-  const log_items = [
-    { title: "Entrar", link: "/login" },
-    { title: "Registro", link: "/register" },
-  ];
-
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <div className="container-fluid px-5">
