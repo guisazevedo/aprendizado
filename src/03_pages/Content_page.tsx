@@ -9,7 +9,7 @@ const sub_header = "Licoes e exercicios";
 const text =
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae deserunt obcaecati ullam aperiam velit voluptate aspernatur beatae ut doloribus non placeat aut, saepe vero. ";
 
-// inputs for the Content component
+// inputs for the Content component => always leave the last card empty
 const cards = [
   {
     image: "/src/00_assets/images/class_1.jpg",
@@ -33,43 +33,13 @@ const cards = [
   },
   {
     image: "/src/00_assets/images/class_1.jpg",
-    title: "Licao 3",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptatibus?",
-    objective_1: "Aprender isso",
-    objective_2: "depois isso",
-    objective_3: "e termina com isso",
-    button: "Iniciar",
-  },
-  {
-    image: "/src/00_assets/images/class_1.jpg",
-    title: "Licao 4",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptatibus?",
-    objective_1: "Aprender +",
-    objective_2: "depois +",
-    objective_3: "e termina com +",
-    button: "Iniciar",
-  },
-  {
-    image: "/src/00_assets/images/class_1.jpg",
-    title: "Licao 5",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptatibus?",
-    objective_1: "Aprender isso",
-    objective_2: "depois isso",
-    objective_3: "e termina com isso",
-    button: "Iniciar",
-  },
-  {
-    image: "/src/00_assets/images/class_1.jpg",
-    title: "Licao 6",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptatibus?",
-    objective_1: "Aprender +",
-    objective_2: "depois +",
-    objective_3: "e termina com +",
-    button: "Iniciar",
+    title: "",
+    description: "",
+    objective_1: "",
+    objective_2: "",
+    objective_3: "",
+    button: " ",
+    placeholder: <span className="placeholder col-8"></span>,
   },
 ];
 
@@ -96,6 +66,7 @@ const Content_page = () => {
               objective_2={card.objective_2}
               objective_3={card.objective_3}
               button={card.button}
+              placeholder={card.placeholder}
             />
           </div>
         ))}

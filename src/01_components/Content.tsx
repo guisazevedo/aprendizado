@@ -1,11 +1,14 @@
+import { ReactNode } from "react";
+
 interface Props {
-  image: string;
-  title: string;
-  description: string;
-  objective_1: string;
-  objective_2: string;
-  objective_3: string;
+  image?: string;
+  title?: string;
+  description?: string;
+  objective_1?: string;
+  objective_2?: string;
+  objective_3?: string;
   button: string;
+  placeholder?: ReactNode;
 }
 
 const Content = ({
@@ -16,6 +19,7 @@ const Content = ({
   objective_2,
   objective_3,
   button,
+  placeholder,
 }: Props) => {
   return (
     <div className="card border px-0 m-3 shadow gb-body">
@@ -26,16 +30,40 @@ const Content = ({
         alt="Man contemplating the universe"
       />
       <div className="card-body">
-        <h5 className="card-title">{title}</h5>
-        <p className="card-text">{description}</p>
+        <h5 className={"card-title"}>
+          {placeholder}
+          {title}
+        </h5>
+        <p className="card-text">
+          {placeholder}
+          {placeholder}
+          {description}
+        </p>
       </div>
       <ul className="list-group list-group-flush">
-        <li className="list-group-item">{objective_1}</li>
-        <li className="list-group-item">{objective_2}</li>
-        <li className="list-group-item">{objective_3}</li>
+        <li className="list-group-item">
+          {placeholder}
+          {objective_1}
+        </li>
+        <li className="list-group-item">
+          {placeholder}
+          {objective_2}
+        </li>
+        <li className="list-group-item">
+          {placeholder}
+          {objective_3}
+        </li>
       </ul>
       <div className="card-body">
-        <a href="#" className="btn btn-primary px-4">
+        <a
+          href="#"
+          className="btn btn-primary btn-sm 
+        px-4 d-flex align-items-center justify-content-center"
+          style={{
+            width: "100px",
+            height: "40px",
+          }}
+        >
           {button}
         </a>
       </div>
