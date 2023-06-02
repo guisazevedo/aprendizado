@@ -57,12 +57,8 @@ const Content = ({
       <div className="card-body">
         <a
           href="#"
-          className="btn btn-primary btn-sm 
-        px-4 d-flex align-items-center justify-content-center"
-          style={{
-            width: "100px",
-            height: "40px",
-          }}
+          className="btn btn-primary btn-md 
+        px-4"
         >
           {button}
         </a>
@@ -73,4 +69,4 @@ const Content = ({
 
 export default Content;
 
-// TODO => link botao "iniciar"
+// TODO => link botao "iniciar" => cada licao tem um link differente

@@ -38,7 +38,7 @@ const cards = [
     objective_1: "",
     objective_2: "",
     objective_3: "",
-    button: " ",
+    button: "Breve",
     placeholder: <span className="placeholder col-8"></span>,
   },
 ];
