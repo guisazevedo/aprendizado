@@ -4,7 +4,7 @@ import Content from "../01_components/Content";
 const cards = [
   {
     image: "/src/00_assets/images/class_1.jpg",
-    title: "Licao 1",
+    title: "Nivel 1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptatibus?",
     objective_1: "Aprender isso",
@@ -14,7 +14,7 @@ const cards = [
   },
   {
     image: "/src/00_assets/images/class_1.jpg",
-    title: "Licao 2",
+    title: "Nivel 2",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptatibus?",
     objective_1: "Aprender +",
@@ -29,7 +29,7 @@ const cards = [
     objective_1: "",
     objective_2: "",
     objective_3: "",
-    button: "Breve",
+    button: "Em Breve",
     placeholder: <span className="placeholder col-8"></span>,
   },
 ];
