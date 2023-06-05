@@ -31,7 +31,3 @@ const Lesson_page = () => {
 };
 
 export default Lesson_page;
-
-// TODO => fazer lesson_block video -> lesson_block audio -> lesson_block text -> lesson_block doc
-
-// TODO => ver FAQ

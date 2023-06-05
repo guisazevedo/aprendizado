@@ -68,5 +68,3 @@ const Content = ({
 };
 
 export default Content;
-
-// TODO => link botao "iniciar" => cada licao tem um link differente

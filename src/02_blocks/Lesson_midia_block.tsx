@@ -16,12 +16,12 @@ const Lesson_midia_block = () => {
     <>
       <div className="container text-center">
         <div className="row">
-          <div className="col border p-2 rounded bg-white d-flex flex-column align-items-center">
+          <div className="col border p-2 mx-4 my-3 rounded bg-white d-flex flex-column align-items-center">
             <h2 className="py-3 text-center">{video.title}</h2>
             <p className="px-3 text-center">{video.text}</p>
             <Lesson_video_block />
           </div>
-          <div className="col border p-2 mx-4 rounded bg-white d-flex flex-column align-items-center">
+          <div className="col border p-2 mx-4 my-3 rounded bg-white d-flex flex-column align-items-center">
             <h2 className="py-3 text-center">{audio.title}</h2>
             <p className="px-3 text-center">{audio.text}</p>
             <Lesson_audio_block />

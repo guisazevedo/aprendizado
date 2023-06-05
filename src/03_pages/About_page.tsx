@@ -17,5 +17,3 @@ const About_page = () => {
 };
 
 export default About_page;
-
-// TODO => discutir o que fazer

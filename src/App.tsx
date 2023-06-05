@@ -7,7 +7,7 @@ import Content_page from "./03_pages/Content_page";
 import Contato_page from "./03_pages/Contato_page";
 import About_page from "./03_pages/About_page";
 import Lesson_page from "./03_pages/Lesson_page";
-import Video_block from "./02_blocks/Video_block";
+import Download from "./01_components/Download";
 
 function App() {
   return (
@@ -27,10 +27,13 @@ function App() {
           <Route path="/contact" Component={Contato_page}></Route>
           <Route path="/about" Component={About_page}></Route>
           <Route path="/lesson" Component={Lesson_page}></Route>
-          <Route path="/test" Component={Video_block}></Route>
+          <Route path="/download" Component={Download}></Route>
         </Routes>
       </Router>
     </div>
   );
 }
 export default App;
+
+// TODO => fazer link PAGE NOT FOUND
+// TODO => review files => include comments explaining what is in each file

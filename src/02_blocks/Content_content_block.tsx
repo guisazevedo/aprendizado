@@ -14,16 +14,6 @@ const cards = [
   },
   {
     image: "/src/00_assets/images/class_1.jpg",
-    title: "Nivel 2",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptatibus?",
-    objective_1: "Aprender +",
-    objective_2: "depois +",
-    objective_3: "e termina com +",
-    button: "Iniciar",
-  },
-  {
-    image: "/src/00_assets/images/class_1.jpg",
     title: "",
     description: "",
     objective_1: "",
@@ -64,3 +54,5 @@ const Content_content_block = () => {
 };
 
 export default Content_content_block;
+
+// TODO => fazer link "iniciar" para inicio da aula
