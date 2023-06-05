@@ -1,5 +1,5 @@
 import CardContent from "../01_components/CardContent";
-import Faq from "../01_components/Faq";
+// import Faq from "../01_components/Faq";
 import Footer from "../01_components/Footer";
 import HeaderText from "../01_components/HeaderText";
 import Navbar from "../01_components/Navbar";
@@ -54,7 +54,7 @@ const Lesson_page = () => {
           ))}
         </div>
       </div>
-      <Faq />
+      {/* <Faq /> */}
       <div className="p-5"></div>
       <Footer />
     </>
@@ -64,3 +64,5 @@ const Lesson_page = () => {
 export default Lesson_page;
 
 // TODO => fazer lesson_block video -> lesson_block audio -> lesson_block text -> lesson_block doc
+
+// TODO => ver FAQ

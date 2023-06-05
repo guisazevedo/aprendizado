@@ -8,7 +8,7 @@ const About_page = () => {
       <Navbar />
       <div className="py-5"></div>
       <About_header_block />
-      <div className="p-5"></div>
+      <div className="p-2"></div>
       <h1 className="text-center">Discutir o que fazer</h1>
       <div className="p-5"></div>
       <Footer />

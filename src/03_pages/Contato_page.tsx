@@ -9,7 +9,7 @@ const Contato = () => {
       <Navbar />
       <div className="p-5"></div>
       <Contato_header_block />
-      <div className="p-5"></div>
+      <div className="p-2"></div>
       <Contato_register_block />
       <div className="p-5"></div>
       <Footer />

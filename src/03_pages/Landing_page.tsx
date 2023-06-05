@@ -10,9 +10,9 @@ const Landing_page = () => {
       <Navbar />
       <div className="p-5"></div>
       <Landing_welcome_block />
-      <div className="p-5"></div>
+      <div className="p-2"></div>
       <Landing_overview_block />
-      <div className="p-5"></div>
+      <div className="p-2"></div>
       <Landing_faq_block />
       <div className="p-5"></div>
       <Footer />
