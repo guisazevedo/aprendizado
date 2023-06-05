@@ -1,29 +1,16 @@
 import HeaderText from "./HeaderText";
 
-const Faq = () => {
-  const questions_items_1 = [
-    {
-      question: "Quanto custa o curso?",
-      collapse: "collapseOne",
-      text: "Esta e uma plataforma sem fins lucrativos. Todo nosso conteudo eh livre e gratuito. Basta se registrar no site e voce tera acesso a todo o conteudo.",
-    },
-    {
-      question: "Posso acessar o conteúdo de qualquer lugar?",
-      collapse: "collapseTwo",
-      text: "Sim, você pode acessar o conteúdo de qualquer lugar, basta ter um dispositivo com acesso a internet.",
-    },
-    {
-      question: "Posso acessar todo o conteudo de uma so vez??",
-      collapse: "collapseThree",
-      text: "Nossa experiencia mostra que assistir o conteudo em ordem gera uma maior absorcao do material. Por isso cada video e liberado apos o termino do anterior.",
-    },
-    {
-      question: "O que (pergunta 4)...?",
-      collapse: "collapseFour",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi laudantium repudiandae nobis consectetur dolorem asperiores id dicta aut officiis doloribus modi saepe, facere voluptatibus harum et sequi quos ducimus?",
-    },
-  ];
+interface Question {
+  question: string;
+  collapse: string;
+  answer: string;
+}
 
+interface Props {
+  questions: Question[];
+}
+
+const Faq = ({ questions }: Props) => {
   // inputs for the HeaderText component
   const header = "Perguntas frenquentes";
   const sub_header = "Lorem ipsum dolor sit amet";
@@ -36,7 +23,7 @@ const Faq = () => {
       <div className="row justify-content-center">
         <div className="col-lg-10">
           <div className="accordion">
-            {questions_items_1.map((item) => (
+            {questions.map((item) => (
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
@@ -56,7 +43,7 @@ const Faq = () => {
                   data-bs-parent="#accordionExample1"
                 >
                   <div className="accordion-body">
-                    <p className="text-muted">{item.text}</p>
+                    <p className="text-muted">{item.answer}</p>
                   </div>
                 </div>
               </div>
