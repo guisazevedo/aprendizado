@@ -47,3 +47,5 @@ const Landing_faq_block = () => {
 };
 
 export default Landing_faq_block;
+
+// TODO => is this correct? header + faq?

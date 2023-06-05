@@ -1,11 +1,11 @@
 import CardContent from "../01_components/CardContent";
 
 // inputs for cards
-const icon = <i className="bi bi-film h5"></i>;
+const icon = <i className="bi bi-headphones h5"></i>;
 
 const cards = [
   {
-    title: "Video 1: Tema",
+    title: "Audio 1: Tema",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, earum!",
     part: "Duracao: 10 min",
@@ -13,7 +13,7 @@ const cards = [
     image: "/src/00_assets/images/class_1.jpg",
   },
   {
-    title: "Video 2: Tema",
+    title: "Audio 2: Tema",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, earum!",
     part: "Duracao: 10 min",
@@ -21,7 +21,7 @@ const cards = [
     image: "/src/00_assets/images/class_1.jpg",
   },
   {
-    title: "Video 3: Tema",
+    title: "Audio 3: Tema",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, earum!",
     part: "Duracao: 10 min",
@@ -29,7 +29,7 @@ const cards = [
     image: "/src/00_assets/images/class_1.jpg",
   },
   {
-    title: "Video 4: Tema",
+    title: "Audio 4: Tema",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, earum!",
     part: "Duracao: 10 min",
@@ -37,7 +37,7 @@ const cards = [
     image: "/src/00_assets/images/class_1.jpg",
   },
   {
-    title: "Video 5: Tema",
+    title: "Audio 5: Tema",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, earum!",
     part: "Duracao: 10 min",
@@ -46,9 +46,10 @@ const cards = [
   },
 ];
 
-const Lesson_video_block = () => {
+const Lesson_audio_block = () => {
   return (
     <>
+      {" "}
       {cards.map((card) => (
         <CardContent
           title={card.title}
@@ -62,4 +63,4 @@ const Lesson_video_block = () => {
   );
 };
 
-export default Lesson_video_block;
+export default Lesson_audio_block;
