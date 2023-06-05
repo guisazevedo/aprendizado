@@ -27,3 +27,4 @@ const About_page = () => {
 export default About_page;
 
 // TODO => discutir o que fazer
+// TODO => break headerText from About_page in block

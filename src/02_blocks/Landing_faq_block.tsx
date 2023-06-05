@@ -40,6 +40,7 @@ const Landing_faq_block = () => {
   return (
     <>
       <HeaderText header={header} sub_header={sub_header} text={text} />
+      <div className="p-2"></div>
       <Faq questions={questions} />
     </>
   );
