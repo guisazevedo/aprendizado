@@ -1,12 +1,24 @@
-const name = "Material Video 1";
+interface download {
+  name: string;
+}
 
-const Download = () => {
+interface Props {
+  title: download[];
+}
+
+const Download = ({ title }: Props) => {
   return (
     <>
-      <div className="container rounded bg-secondary m-2 text-center">
-        <i className="bi bi-download h2 text-white"></i>
-        <p className="text-white">{name}</p>
-      </div>
+      {title.map((item, index) => (
+        <button
+          type="button"
+          key={index}
+          className="btn btn-outline-secondary shadow m-4"
+        >
+          <i className="bi bi-download h2 m-5"></i>
+          <p className="m-1">{item.name}</p>
+        </button>
+      ))}
     </>
   );
 };

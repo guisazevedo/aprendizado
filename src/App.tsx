@@ -7,7 +7,7 @@ import Content_page from "./03_pages/Content_page";
 import Contato_page from "./03_pages/Contato_page";
 import About_page from "./03_pages/About_page";
 import Lesson_page from "./03_pages/Lesson_page";
-import Download from "./01_components/Download";
+import Lesson_download_block from "./02_blocks/Lesson_download_block";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
           <Route path="/contact" Component={Contato_page}></Route>
           <Route path="/about" Component={About_page}></Route>
           <Route path="/lesson" Component={Lesson_page}></Route>
-          <Route path="/download" Component={Download}></Route>
+          <Route path="/download" Component={Lesson_download_block}></Route>
         </Routes>
       </Router>
     </div>
