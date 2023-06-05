@@ -3,19 +3,19 @@ import HeaderText from "./HeaderText";
 const Faq = () => {
   const questions_items_1 = [
     {
-      question: "O que (pergunta 1)...?",
+      question: "Quanto custa o curso?",
       collapse: "collapseOne",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi laudantium repudiandae nobis consectetur dolorem asperiores id dicta aut officiis doloribus modi saepe, facere voluptatibus harum et sequi quos ducimus?",
+      text: "Esta e uma plataforma sem fins lucrativos. Todo nosso conteudo eh livre e gratuito. Basta se registrar no site e voce tera acesso a todo o conteudo.",
     },
     {
-      question: "O que (pergunta 2)...?",
+      question: "Posso acessar o conteúdo de qualquer lugar?",
       collapse: "collapseTwo",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi laudantium repudiandae nobis consectetur dolorem asperiores id dicta aut officiis doloribus modi saepe, facere voluptatibus harum et sequi quos ducimus?",
+      text: "Sim, você pode acessar o conteúdo de qualquer lugar, basta ter um dispositivo com acesso a internet.",
     },
     {
-      question: "O que (pergunta 3)...?",
+      question: "Posso acessar todo o conteudo de uma so vez??",
       collapse: "collapseThree",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi laudantium repudiandae nobis consectetur dolorem asperiores id dicta aut officiis doloribus modi saepe, facere voluptatibus harum et sequi quos ducimus?",
+      text: "Nossa experiencia mostra que assistir o conteudo em ordem gera uma maior absorcao do material. Por isso cada video e liberado apos o termino do anterior.",
     },
     {
       question: "O que (pergunta 4)...?",
