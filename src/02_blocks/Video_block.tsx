@@ -1,5 +1,4 @@
 // inputs for cards
-
 import CardContent from "../01_components/CardContent";
 
 // TODO => organize

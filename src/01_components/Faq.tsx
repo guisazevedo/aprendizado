@@ -1,5 +1,3 @@
-import HeaderText from "./HeaderText";
-
 interface Question {
   question: string;
   collapse: string;
@@ -10,16 +8,9 @@ interface Props {
   questions: Question[];
 }
 
-// inputs for the HeaderText component
-const header = "Perguntas frenquentes";
-const sub_header = "Lorem ipsum dolor sit amet";
-const text =
-  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, neque voluptatibus, laboriosam assumenda quasi nesciunt vero, maxime incidunt temporibus aut quae fugiat id necessitatibus error iusto blanditiis! Alias, voluptate eveniet.";
-
 const Faq = ({ questions }: Props) => {
   return (
     <div className="container">
-      <HeaderText header={header} sub_header={sub_header} text={text} />
       <div className="row justify-content-center">
         <div className="col-lg-10">
           <div className="accordion">
