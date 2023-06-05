@@ -1,10 +1,6 @@
 import { Link } from "react-router-dom";
-import HeaderText from "./HeaderText";
 
 interface Props {
-  header?: string;
-  sub_header?: string;
-  text?: string;
   register_items: Array<{
     title?: string;
     type?: string;
@@ -20,16 +16,9 @@ interface Props {
   }>;
 }
 
-const Register = ({
-  header,
-  sub_header,
-  text,
-  register_items,
-  execute_items,
-}: Props) => {
+const Register = ({ register_items, execute_items }: Props) => {
   return (
     <div className="container col-md-8 col-lg-6 px-5">
-      <HeaderText header={header} sub_header={sub_header} text={text} />
       <form>
         {register_items.map((item) => (
           <div className="mb-4">
