@@ -11,8 +11,8 @@ interface Props {
 const CardContent = ({ title, description, part, play, image }: Props) => {
   return (
     <>
-      <div className="card mb-3 col-5 px-0">
-        <div className="row g-0">
+      <div className="card my-3 mx-5">
+        <div className="shadow row g-0">
           <div className="col-md-4">
             <img
               src={image}

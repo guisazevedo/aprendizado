@@ -1,7 +1,7 @@
 // import Faq from "../01_components/Faq";
 import Navbar from "../01_components/Navbar";
 import Lesson_header_block from "../02_blocks/Lesson_header_block";
-import Lesson_video_block from "../02_blocks/Lesson_video_block";
+import Lesson_midia_block from "../02_blocks/Lesson_midia_block";
 import Footer from "../01_components/Footer";
 
 const Lesson_page = () => {
@@ -11,7 +11,7 @@ const Lesson_page = () => {
       <div className="py-5"></div>
       <Lesson_header_block />
       <div className="py-5"></div>
-      <Lesson_video_block />
+      <Lesson_midia_block />
       <div className="py-5"></div>
       {/* <Faq /> */}
       <div className="p-5"></div>

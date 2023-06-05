@@ -13,34 +13,34 @@ const cards = [
     image: "/src/00_assets/images/class_1.jpg",
   },
   {
-    title: "Video 2",
+    title: "Video 2: Tema",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, earum!",
-    part: "Parte 2",
+    part: "Duracao: 10 min",
     play: <i className="bi bi-film h5"></i>,
     image: "/src/00_assets/images/class_1.jpg",
   },
   {
-    title: "Video 3",
+    title: "Video 3: Tema",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, earum!",
-    part: "Parte 2",
+    part: "Duracao: 10 min",
     play: <i className="bi bi-film h5"></i>,
     image: "/src/00_assets/images/class_1.jpg",
   },
   {
-    title: "Video 4",
+    title: "Video 4: Tema",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, earum!",
-    part: "Parte 2",
+    part: "Duracao: 10 min",
     play: <i className="bi bi-film h5"></i>,
     image: "/src/00_assets/images/class_1.jpg",
   },
   {
-    title: "Video 5",
+    title: "Video 5: Tema",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, earum!",
-    part: "Parte 2",
+    part: "Duracao: 10 min",
     play: <i className="bi bi-film h5"></i>,
     image: "/src/00_assets/images/class_1.jpg",
   },
