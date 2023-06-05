@@ -1,8 +1,4 @@
-import Navbar from "../01_components/Navbar";
-import Content_header_block from "../02_blocks/Content_header_block";
 import Content from "../01_components/Content";
-import Footer from "../01_components/Footer";
-import Content_content_block from "../02_blocks/Content_content_block";
 
 // inputs for the Content component => always leave the last card empty
 const cards = [
@@ -38,18 +34,33 @@ const cards = [
   },
 ];
 
-const Content_page = () => {
+const Content_content_block = () => {
   return (
     <>
-      <Navbar />
-      <div className="py-5"></div>
-      <Content_header_block />
-      <div className="py-2"></div>
-      <Content_content_block />
-      <div className="p-5"></div>
-      <Footer />
+      <div className="row justify-content-center">
+        {cards.map((card) => (
+          <div
+            className="col-lg-3"
+            style={{
+              minWidth: "400px",
+              maxWidth: "500px",
+            }}
+          >
+            <Content
+              image={card.image}
+              title={card.title}
+              description={card.description}
+              objective_1={card.objective_1}
+              objective_2={card.objective_2}
+              objective_3={card.objective_3}
+              button={card.button}
+              placeholder={card.placeholder}
+            />
+          </div>
+        ))}
+      </div>
     </>
   );
 };
 
-export default Content_page;
+export default Content_content_block;
