@@ -60,3 +60,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// TODO => make entrar and registro buttons part of the collapse menu
