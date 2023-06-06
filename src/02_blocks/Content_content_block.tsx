@@ -15,7 +15,7 @@ const cards = [
   },
   {
     image: "/src/00_assets/images/class_1.jpg",
-    title: "",
+    title: "Nivel 2",
     description: "",
     objective_1: "",
     objective_2: "",

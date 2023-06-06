@@ -35,10 +35,7 @@ const Content = ({
         alt="Man contemplating the universe"
       />
       <div className="card-body">
-        <h5 className={"card-title"}>
-          {placeholder}
-          {title}
-        </h5>
+        <h5 className={"card-title"}>{title}</h5>
         <p className="card-text">
           {placeholder}
           {placeholder}
