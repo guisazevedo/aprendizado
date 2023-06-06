@@ -11,6 +11,7 @@ const cards = [
     objective_2: "depois isso",
     objective_3: "e termina com isso",
     button: "Iniciar",
+    button_link: "/lesson_1",
   },
   {
     image: "/src/00_assets/images/class_1.jpg",
@@ -20,6 +21,7 @@ const cards = [
     objective_2: "",
     objective_3: "",
     button: "Em Breve",
+    button_link: "",
     placeholder: <span className="placeholder col-8"></span>,
   },
 ];
@@ -44,6 +46,7 @@ const Content_content_block = () => {
               objective_2={card.objective_2}
               objective_3={card.objective_3}
               button={card.button}
+              button_link={card.button_link}
               placeholder={card.placeholder}
             />
           </div>

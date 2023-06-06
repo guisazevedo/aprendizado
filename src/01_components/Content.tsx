@@ -1,4 +1,7 @@
 import { ReactNode } from "react";
+import { Link } from "react-router-dom";
+
+// TODO => entender o interface e content below
 
 interface Props {
   image?: string;
@@ -7,7 +10,8 @@ interface Props {
   objective_1?: string;
   objective_2?: string;
   objective_3?: string;
-  button: string;
+  button?: string;
+  button_link: string;
   placeholder?: ReactNode;
 }
 
@@ -19,6 +23,7 @@ const Content = ({
   objective_2,
   objective_3,
   button,
+  button_link,
   placeholder,
 }: Props) => {
   return (
@@ -55,13 +60,13 @@ const Content = ({
         </li>
       </ul>
       <div className="card-body">
-        <a
-          href="#"
+        <Link
+          to={button_link}
           className="btn btn-primary btn-md 
         px-4"
         >
           {button}
-        </a>
+        </Link>
       </div>
     </div>
   );
