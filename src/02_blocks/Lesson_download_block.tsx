@@ -5,7 +5,7 @@ const download = {
   text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nisi dolore iste nulla quasi a quaerat quo accusantium adipisci esse.",
 };
 
-// TODO => connect this with video title (once we start to organize backend)
+// COMMENT => connect this with video title (once we start to organize backend)
 const title = [
   { name: "Material Video 1" },
   { name: "Material Video 2" },

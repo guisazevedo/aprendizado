@@ -50,5 +50,3 @@ const Landing_faq_block = () => {
 };
 
 export default Landing_faq_block;
-
-// TODO => create Landing_faq_block and Landing_header_block???

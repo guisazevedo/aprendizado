@@ -33,3 +33,4 @@ function App() {
 export default App;
 
 // TODO => review files => include comments explaining what is in each file
+// TODO => organizar / padronizar os espaços entre os componentes
