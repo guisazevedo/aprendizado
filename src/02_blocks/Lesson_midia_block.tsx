@@ -8,7 +8,7 @@ const video = {
 
 const audio = {
   title: "Audio",
-  text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit animi quis dolorem laudantium alias corporis nobis omnis iste adipisci.",
+  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nisi dolore iste nulla quasi a quaerat quo accusantium adipisci esse.",
 };
 
 const Lesson_midia_block = () => {

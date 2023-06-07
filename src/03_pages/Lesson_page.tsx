@@ -30,5 +30,3 @@ const Lesson_page = () => {
 };
 
 export default Lesson_page;
-
-// TODO => blocks should be either large or cell phone size

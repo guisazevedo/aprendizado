@@ -11,7 +11,7 @@ interface Props {
 const CardContent = ({ title, description, part, play, image }: Props) => {
   return (
     <>
-      <div className="card my-3 mx-5">
+      <div className="card my-3 mx-5" style={{ minWidth: "300px" }}>
         <div className="shadow row g-0">
           <div className="col-md-4">
             <img
@@ -21,7 +21,7 @@ const CardContent = ({ title, description, part, play, image }: Props) => {
               alt="image of the lesson"
             />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-8">
             <div className="card-body text-start">
               <h5 className="card-title">{title}</h5>
               <p className="card-text">{description}</p>
