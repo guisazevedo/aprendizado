@@ -22,7 +22,7 @@ const cards = [
     objective_2: "depois isso",
     objective_3: "e termina com isso",
     button: "Iniciar",
-    button_link: "/lesson_1",
+    button_link: "",
   },
   {
     image: "/00_assets/images/class_1.jpg",
@@ -68,5 +68,3 @@ const Content_content_block = () => {
 };
 
 export default Content_content_block;
-
-// TODO => fix image - not appearing

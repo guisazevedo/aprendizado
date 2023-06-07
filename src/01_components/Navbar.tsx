@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 const menu_items = [
   { title: "Principal", link: "/" },
   { title: "Sobre", link: "/about" },
-  { title: "Contato", link: "/contact" },
 ];
 
 const log_items = [

@@ -63,5 +63,3 @@ const Lesson_video_block = () => {
 };
 
 export default Lesson_video_block;
-
-// TODO => fix image - not appearing
