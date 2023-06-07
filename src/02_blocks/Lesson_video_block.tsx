@@ -18,7 +18,7 @@ const cards = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, earum!",
     part: "Duracao: 10 min",
     play: icon,
-    image: "/src/00_assets/images/class_1.jpg",
+    image: "/00_assets/images/class_1.jpg",
   },
   {
     title: "Video 3: Tema",
@@ -26,7 +26,7 @@ const cards = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, earum!",
     part: "Duracao: 10 min",
     play: icon,
-    image: "/src/00_assets/images/class_1.jpg",
+    image: "/00_assets/images/class_1.jpg",
   },
   {
     title: "Video 4: Tema",
@@ -34,7 +34,7 @@ const cards = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, earum!",
     part: "Duracao: 10 min",
     play: icon,
-    image: "/src/00_assets/images/class_1.jpg",
+    image: "/00_assets/images/class_1.jpg",
   },
   {
     title: "Video 5: Tema",
@@ -42,7 +42,7 @@ const cards = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, earum!",
     part: "Duracao: 10 min",
     play: icon,
-    image: "/src/00_assets/images/class_1.jpg",
+    image: "/00_assets/images/class_1.jpg",
   },
 ];
 
