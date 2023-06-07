@@ -25,7 +25,7 @@ const Faq = ({ questions }: Props) => {
                     aria-expanded="false"
                     aria-controls={item.collapse}
                   >
-                    <p className="fs-6 fw-bold">{item.question}</p>
+                    <span className="fs-6 fw-bold">{item.question}</span>
                   </button>
                 </h2>
                 <div
@@ -47,5 +47,3 @@ const Faq = ({ questions }: Props) => {
 };
 
 export default Faq;
-
-// TODO => text in question needs to be in the vertical center

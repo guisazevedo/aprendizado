@@ -21,3 +21,5 @@ const Landing_page = () => {
 };
 
 export default Landing_page;
+
+// TODO => add "bem vindo | como funciona | faq" on top

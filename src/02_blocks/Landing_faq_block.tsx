@@ -48,4 +48,4 @@ const Landing_faq_block = () => {
 
 export default Landing_faq_block;
 
-// TODO => is this correct? header + faq?
+// TODO => create Landing_faq_block and Landing_header_block

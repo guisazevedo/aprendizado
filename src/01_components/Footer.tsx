@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
-    <footer className="footer py-3 bg-dark" style={{ width: "100vw" }}>
-      <div className="container">
-        <div className="row justify-content-center">
-          <div className="text-center">
+    <footer className="footer bd-footer py-3 bg-dark position-absolute start-0 end-0">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-12 text-center">
             <span className="text-light">
               Copyright(C) 2023: Lorem ipsum dolor sit.
             </span>
@@ -15,5 +15,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-// TODO => footer needs to occupy the entire width of the screen
