@@ -62,3 +62,4 @@ const Navbar = () => {
 export default Navbar;
 
 // TODO => make entrar and registro buttons part of the collapse menu
+// TODO => exclude contato from navbar -> navbar should only have principal and sobre

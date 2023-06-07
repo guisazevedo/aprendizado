@@ -15,3 +15,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+// TODO => footer needs to occupy the entire width of the screen

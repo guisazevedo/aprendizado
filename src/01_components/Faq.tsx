@@ -47,3 +47,5 @@ const Faq = ({ questions }: Props) => {
 };
 
 export default Faq;
+
+// TODO => text in question needs to be in the vertical center

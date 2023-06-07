@@ -17,3 +17,6 @@ const About_page = () => {
 };
 
 export default About_page;
+
+// TODO => about page should  include contato page
+// TODO => contato page passes to exist onlyin about page

@@ -36,3 +36,5 @@ const Login_register_block = () => {
 };
 
 export default Login_register_block;
+
+// TODO => include "password eye" in the password input (Login and Register)
