@@ -17,5 +17,3 @@ const HeaderText = ({ header, sub_header, text }: Props) => {
 };
 
 export default HeaderText;
-
-// TODO => make text in paragraphs

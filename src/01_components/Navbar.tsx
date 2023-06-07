@@ -7,8 +7,8 @@ const menu_items = [
 ];
 
 const log_items = [
-  { title: "Entrar", link: "/login" },
-  { title: "Registro", link: "/register" },
+  { title: "Log-in", link: "/login" },
+  { title: "Sign-up", link: "/register" },
 ];
 
 const Navbar = () => {
@@ -32,26 +32,37 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
-          <ul className="navbar-nav me-auto mb-2 mb-md-0">
+          <ul className="navbar-nav">
             {menu_items.map((item) => (
-              <li className="nav-item px-2">
+              <li className="nav-item px-2" key={item.title}>
                 <Link className="nav-link active" to={item.link}>
                   {item.title}
                 </Link>
               </li>
             ))}
           </ul>
-        </div>
-        <div className="row">
-          {log_items.map((item) => (
-            <div className="col">
-              <Link to={item.link}>
-                <button type="button" className="btn btn-outline-light px-2">
-                  <span className="p-3">{item.title}</span>
+          <ul className="navbar-nav ms-auto mb-2 mb-md-0">
+            <li className="nav-item m-2">
+              <Link to="/login">
+                <button
+                  type="button"
+                  className="btn btn-light text-dark px-2 w-100"
+                >
+                  <span className="p-3">{log_items[0].title}</span>
                 </button>
               </Link>
-            </div>
-          ))}
+            </li>
+            <li className="nav-item m-2">
+              <Link to="/register">
+                <button
+                  type="button"
+                  className="btn btn-outline-light px-2 w-100"
+                >
+                  <span className="p-3">{log_items[1].title}</span>
+                </button>
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -59,6 +70,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// TODO => make entrar and registro buttons part of the collapse menu
-// TODO => exclude contato from navbar -> navbar should only have principal and sobre
