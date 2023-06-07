@@ -5,8 +5,9 @@ import HeaderText from "../01_components/HeaderText";
 const header = "Perguntas frequentes sobre a aula";
 const sub_header =
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, aut.";
-const text =
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptate omnis harum eum doloribus, aut ad, enim eveniet asperiores cumque ipsum aspernatur expedita quae temporibus voluptates magnam, impedit quo beatae.";
+const text = [
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptate omnis harum eum doloribus, aut ad, enim eveniet asperiores cumque ipsum aspernatur expedita quae temporibus voluptates magnam, impedit quo beatae.",
+];
 
 // inputs for FAQ component
 const questions = [

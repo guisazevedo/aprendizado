@@ -1,8 +1,6 @@
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
 
-// TODO => entender o interface e content below
-
 interface Props {
   image?: string;
   title?: string;

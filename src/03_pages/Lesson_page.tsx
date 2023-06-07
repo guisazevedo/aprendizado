@@ -20,7 +20,7 @@ const Lesson_page = () => {
       <Lesson_faq_block />
       <div className="py-5"></div>
       <div className="py-5"></div>
-      <div className="bg-primary py-5 text-white text-center">
+      <div className="bg-primary py-5 text-white text-center text-danger">
         Links material adicional
       </div>
       <div className="py-5"></div>
