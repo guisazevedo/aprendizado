@@ -6,6 +6,7 @@ import Register_page from "./03_pages/Register_page";
 import Content_page from "./03_pages/Content_page";
 import About_page from "./03_pages/About_page";
 import Lesson_page from "./03_pages/Lesson_page";
+import Not_found_page from "./03_pages/Not_found_page";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/content" Component={Content_page}></Route>
           <Route path="/about" Component={About_page}></Route>
           <Route path="/lesson_1" Component={Lesson_page}></Route>
+          <Route path="*" Component={Not_found_page}></Route>
         </Routes>
       </Router>
     </div>
@@ -30,5 +32,4 @@ function App() {
 }
 export default App;
 
-// TODO => fazer link PAGE NOT FOUND
 // TODO => review files => include comments explaining what is in each file
