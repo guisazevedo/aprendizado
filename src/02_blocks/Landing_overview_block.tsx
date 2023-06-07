@@ -1,3 +1,4 @@
+import BacktoTop from "../01_components/BacktoTop";
 import HeaderText from "../01_components/HeaderText";
 import Video from "../01_components/Video";
 
@@ -15,6 +16,7 @@ const Landing_overview_block = () => {
       <HeaderText header={header} sub_header={sub_header} text={text} />
       <div className="p-2"></div>
       <Video />
+      <BacktoTop />
     </>
   );
 };

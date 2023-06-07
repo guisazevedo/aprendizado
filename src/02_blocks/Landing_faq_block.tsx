@@ -1,8 +1,9 @@
+import BacktoTop from "../01_components/BacktoTop";
 import Faq from "../01_components/Faq";
 import HeaderText from "../01_components/HeaderText";
 
 // inputs for the HeaderText component
-const header = "Perguntas frequentes!!";
+const header = "Perguntas frequentes!";
 const sub_header =
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, aut.";
 const text = [
@@ -43,6 +44,7 @@ const Landing_faq_block = () => {
       <HeaderText header={header} sub_header={sub_header} text={text} />
       <div className="p-2"></div>
       <Faq questions={questions} />
+      <BacktoTop />
     </>
   );
 };

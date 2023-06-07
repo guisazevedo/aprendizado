@@ -1,3 +1,4 @@
+import BacktoTop from "../01_components/BacktoTop";
 import HeaderText from "../01_components/HeaderText";
 
 // inputs for the HeaderText component
@@ -10,13 +11,14 @@ const text = [
   "Trazemos nesta plataforma um caminho certeiro, o do conhecimento ordenado sintetizado em pontos chaves, pontos filosóficos, treinamentos mentais, meditação, reflexão e ampliação de sentir.",
   "Esse caminho que traz essa ampliação de consciência tem como objetivo reconhecer e motivar a intensa vontade de atuar e de se integrar a essa Grandiosa Obra.",
   "Entre, estude, perceba cada ponto de conhecimento e como essa teia de pontos se amplia até formar uma rede cada vez mais abrangente, para trazer a Verdade da nossa existência.",
-  "O Conhecimento liberta, traz Justiça e Paz.Essa é a Lei Universal.",
+  "O Conhecimento liberta, traz Justiça e Paz. Essa é a Lei Universal.",
 ];
 
 const Landing_welcome_block = () => {
   return (
     <>
       <HeaderText header={header} sub_header={sub_header} text={text} />
+      <BacktoTop />
     </>
   );
 };
