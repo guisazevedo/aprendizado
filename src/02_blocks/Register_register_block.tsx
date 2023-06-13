@@ -3,28 +3,40 @@ import Register from "../01_components/Register";
 // inputs for the email/password components
 const register_items = [
   {
-    title: "Nome e sobrenome",
+    title: "Nome completo",
     type: "name",
     id: "exampleInputName1",
-    text: "Como devemos te chamar?",
+    text: "",
+  },
+  {
+    title: "Data de nascimento",
+    type: "date", // TODO => change to aaaa
+    id: "exampleInputBornDate1",
+    text: "",
   },
   {
     title: "Email",
     type: "email",
     id: "exampleInputEmail1",
-    text: "Nos nao iremos compartilhar seu email com ninguem",
+    text: "Nao compartilhamos seu email com ninguem",
+  },
+  {
+    title: "Whatsapp",
+    type: "whatsapp",
+    id: "exampleInputWhatsapp1",
+    text: "Nao compartilhamos seu whatsapp com ninguem",
   },
   {
     title: "Senha",
     type: "password",
     id: "exampleInputPassword1",
-    text: "Sua senha deve ser de 8-20 caracteres, conter letras e numeros, e nao deve conter spacos ou emojis",
+    text: "Sua senha deve ter no minimo 6 caracteres, conter letras e numeros, e nao deve conter spacos ou emojis",
   },
   {
     title: "Confirme a Senha",
     type: "password",
     id: "exampleInputPassword2",
-    text: "Sua senha deve ser de 8-20 caracteres, conter letras e numeros, e nao deve conter spacos ou emojis",
+    text: "",
   },
 ];
 
