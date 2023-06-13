@@ -5,8 +5,10 @@ import Video from "../01_components/Video";
 // inputs for the HeaderText component
 const header = "Como funciona?";
 const sub_header =
-  "Esta é uma plataforma sem fins lucrativos. Todo nosso conteúdo é gratuito. Basta registrar-se para receber o acesso por e-mail.";
-const text = ["pequeno texto"];
+  "Esta é uma plataforma sem fins lucrativos. Todo nosso conteúdo é gratuito. Basta registrar-se e fazer o login com seu e-mail e senha";
+const text = [
+  "Assista a apresentação para entender melhor o que você vai encontrar neste estudo",
+];
 
 const Landing_overview_block = () => {
   return (
