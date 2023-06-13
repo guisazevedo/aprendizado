@@ -3,20 +3,17 @@ import Faq from "../01_components/Faq";
 import HeaderText from "../01_components/HeaderText";
 
 // inputs for the HeaderText component
-const header = "Perguntas frequentes!";
-const sub_header =
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, aut.";
-const text = [
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptate omnis harum eum doloribus, aut ad, enim eveniet asperiores cumque ipsum aspernatur expedita quae temporibus voluptates magnam, impedit quo beatae.",
-];
+const header = "Perguntas frequentes";
+const sub_header = "Perguntas sobre o funcionamento da plataforma."; // TODO => quebrar em funcionamento plataforma & conteudo
+const text = [""];
 
 // inputs for FAQ component
 const questions = [
   {
-    question: "Quanto custa o curso?",
+    question: "Quanto custa o acesso?",
     collapse: "collapseOne",
     answer:
-      "Esta e uma plataforma sem fins lucrativos. Todo nosso conteudo eh livre e gratuito. Basta se registrar no site e voce tera acesso a todo o conteudo.",
+      "Esta e uma plataforma sem fins lucrativos. Todo nosso conteudo é gratuito. Basta se registrar no site e voce tera acesso a todo o conteudo.",
   },
   {
     question: "Posso acessar o conteúdo de qualquer lugar?",
@@ -31,10 +28,22 @@ const questions = [
       "Nossa experiencia mostra que assistir o conteudo em ordem gera uma maior absorcao do material. Por isso cada video e liberado apos o termino do anterior.",
   },
   {
-    question: "O que (pergunta 4)...?",
+    question: "Quais os assuntos apresentados?",
     collapse: "collapseFour",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi laudantium repudiandae nobis consectetur dolorem asperiores id dicta aut officiis doloribus modi saepe, facere voluptatibus harum et sequi quos ducimus?",
+      "Esta plataforma digital foi criada para reunir estudos da mente e do desenvolvimento espiritual do ser humano, e motivar cada indivíduo para uma ampliação de consciência até a plena convicção de que somos parte de uma grandiosa obra.",
+  },
+  {
+    question: "2.	É recomendado algum conhecimento prévio dos temas?",
+    collapse: "collapseFive",
+    answer:
+      "Não é necessário. O mais importante é ter a vontade de aprender, de querer saber mais sobre a mente, energias, sobre o potencial do ser humano para uma vida de plena consciência e total integração com o mundo mais sutil.",
+  },
+  {
+    question: "Como participar??",
+    collapse: "collapseSix",
+    answer:
+      "Você vai encontrar uma sequência de vídeos/aulas, áudios de explicação e condução de treinamentos e exercícios, textos de pontos principais das aulas em PDF para download, além de links e referências de publicações e estudos da nova ciência e da medicina holística.",
   },
 ];
 
