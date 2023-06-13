@@ -6,7 +6,7 @@ const register_items = [
     title: "Nome e sobrenome",
     type: "name",
     id: "exampleInputName1",
-    text: "Como devemos te chamar?",
+    text: "",
   },
   {
     title: "Email",
