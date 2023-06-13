@@ -6,13 +6,13 @@ const register_items = [
     title: "Email",
     type: "email",
     id: "exampleInputEmail1",
-    text: "Nos nao iremos compartilhar seu email com ninguem",
+    text: "",
   },
   {
     title: "Senha",
     type: "password",
     id: "exampleInputPassword1",
-    text: "Sua senha deve ser de 8-20 caracteres, conter letras e numeros, e nao deve conter spacos ou emojis",
+    text: "",
   },
 ];
 
